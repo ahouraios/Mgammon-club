@@ -18,8 +18,8 @@ export function generateToken(user: User): string {
     },
     JWT_SECRET,
     {
-      expiresInto: '7d',
-    } as any
+      expiresIn: '7d',
+    }
   );
 }
 
