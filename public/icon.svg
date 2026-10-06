@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#241B16" />
+      <stop offset="100%" stop-color="#120E0C" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#120E0C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <circle cx="256" cy="256" r="230" fill="none" stroke="#3D2E24" stroke-width="4" stroke-dasharray="12 12"/>
+  <circle cx="256" cy="256" r="200" fill="url(#glow)"/>
+
+  <!-- Backgammon Board Points Motif -->
+  <polygon points="120,60 160,60 140,160" fill="#78350F" opacity="0.6"/>
+  <polygon points="180,60 220,60 200,160" fill="#D97706" opacity="0.7"/>
+  <polygon points="292,60 332,60 312,160" fill="#78350F" opacity="0.6"/>
+  <polygon points="352,60 392,60 372,160" fill="#D97706" opacity="0.7"/>
+  
+  <polygon points="120,452 160,452 140,352" fill="#D97706" opacity="0.7"/>
+  <polygon points="180,452 220,452 200,352" fill="#78350F" opacity="0.6"/>
+  <polygon points="292,452 332,452 312,352" fill="#D97706" opacity="0.7"/>
+  <polygon points="352,452 392,452 372,352" fill="#78350F" opacity="0.6"/>
+
+  <!-- Coffee Cup Centerpiece -->
+  <path d="M166,220 C166,290 206,330 256,330 C306,330 346,290 346,220 L166,220 Z" fill="#1A1412" stroke="url(#gold)" stroke-width="12" stroke-linejoin="round"/>
+  <!-- Handle -->
+  <path d="M346,236 C376,236 394,250 394,272 C394,294 376,308 346,308" fill="none" stroke="url(#gold)" stroke-width="12" stroke-linecap="round"/>
+  <!-- Saucer -->
+  <path d="M140,344 Q256,370 372,344" fill="none" stroke="url(#gold)" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Steam Curves -->
+  <path d="M226,195 Q220,170 236,150 Q246,135 240,118" fill="none" stroke="#F59E0B" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+  <path d="M266,195 Q274,170 260,150 Q250,135 258,118" fill="none" stroke="#F59E0B" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Backgammon Checkers / Dice Inset -->
+  <circle cx="216" cy="275" r="16" fill="#FDE68A" stroke="#B45309" stroke-width="4"/>
+  <circle cx="296" cy="275" r="16" fill="#451A03" stroke="#D97706" stroke-width="4"/>
+  <circle cx="256" cy="275" r="6" fill="#F59E0B"/>
+</svg>

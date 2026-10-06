@@ -1,0 +1,6 @@
+{
+  "name": "کافه نرد | منوی دیجیتال و سفارش آنلاین کافه باشگاه تخته‌نرد",
+  "description": "سیستم جامع سفارش آنلاین و منوی دیجیتال بر پایه QR کد مخصوص کافی‌شاپ باشگاه تخته‌نرد با پنل مدیریت هوشمند و ساختار اختصاصی Full-Stack",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
